@@ -59,7 +59,7 @@ if __name__ == "__main__":
         top_k=0,
         top_p=0.9,
         repetition_penalty=1.0,
-        max_new_tokens=512,  # adjust as needed
+        max_new_tokens=1024,  # adjust as needed
         seed=42,
         reset=False,  # reset history (cache)
         stream=True,  # streaming per word/token
